@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+
 .navbar-container {
   position: fixed;
   margin: 2.5rem auto;
@@ -9,7 +11,7 @@
 
 .navbar {
   width: 75vh;
-  background-color: #fccf0d;
+  background-color:  #FFCC00;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,7 +22,7 @@
   height: 60px;
   width: 60px;
   border-radius: 30px;
-  background-color: #fccf0d;
+  background-color:  #FFCC00;
   margin-top: -50px;
   display: flex;
   justify-content: center;
@@ -35,13 +37,20 @@
 
 .link {
   padding: 0.5rem 1rem;
-  color: #fff;
+  color: #CCCCCC;
   font-weight: bold;
   margin: 0.5rem;
-  background-color: #2a2927;
+  background-color:  #003366;
   border-radius: 10px 10px 10px 10px;
   display: inline-block;
   cursor: pointer;
+  transition: 0.25s;
+}
+
+.link:hover {
+  color: #003366;
+  background-color: #CCCCCC;
+  transition: 0.25s;
 }
 
 .home-bg {
@@ -56,5 +65,24 @@
 .home {
   width: 100%;
   height: 100vh;
+  color: #fff;
+  font-size: 2.5rem;
+  font-family: 'Manrope', sans-serif;
   background-color: rgba(20, 19, 19, 0.719);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-icon {
+  color: #fff;
+  font-size: 3rem;
+  padding: 0.75rem;
+  transition: 0.25s;
+}
+
+.home-icon:hover {
+  color: #FFCC00;
+  transition: 0.25s;
 }
