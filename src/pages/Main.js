@@ -8,6 +8,7 @@ import Projects from '../pages/Projects'
 import Contact from '../pages/Contact'
 
 export default class Main extends React.Component {
+
   render() {
     return (
       <>

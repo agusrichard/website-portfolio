@@ -1,65 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
 
-.navbar-container {
+/* ---------------- NAVBAR ------------------ */
+.nav-container {
   position: fixed;
-  margin: 2.5rem auto;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  top: 2.5rem;
+  right: 2.5rem;
 }
 
-.navbar {
-  width: 75vh;
-  background-color:  #FFCC00;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 10px 10px 10px 10px;
-}
-
-.logo-container {
-  height: 60px;
-  width: 60px;
-  border-radius: 30px;
-  background-color:  #FFCC00;
-  margin-top: -50px;
-  display: flex;
-  justify-content: center;
-  align-items: center
-}
-
-.logo {
-  height: 50px;
-  width: 50px;
-  border-radius: 25px;
-}
-
-.link {
-  padding: 0.5rem 1rem;
-  color: #CCCCCC;
-  font-weight: bold;
-  margin: 0.5rem;
-  background-color:  #003366;
-  border-radius: 10px 10px 10px 10px;
-  display: inline-block;
+.btn-menu {
   cursor: pointer;
-  transition: 0.25s;
 }
 
-.link:hover {
-  color: #003366;
-  background-color: #CCCCCC;
-  transition: 0.25s;
+/* ---------------- DIVIDER ------------------ */
+.divider {
+  width: 100%;
+  height: 2rem;
+  background-color: #000;
 }
 
+
+/* ---------------- HOME ------------------ */
 .home-bg {
   width: 100%;
   height: 100vh;
   background-image: url('../images/home.jpg');
-  background-position: top left;
+  background-position: center;
   background-size: cover;
-  background-attachment: fixed;
 }
 
 .home {
@@ -85,4 +51,13 @@
 .home-icon:hover {
   color: #FFCC00;
   transition: 0.25s;
+}
+
+/* ---------------- ABOUT ------------------ */
+.about-bg {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../images/about.jpg');
+  background-position: center;
+  background-size: cover;
 }

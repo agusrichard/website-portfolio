@@ -1,19 +1,32 @@
-import React from 'react'
+import React, { useState } from 'react'
 
-import logo from '../assets/images/logo.jpg'
+import HamburgerMenu from 'react-hamburger-menu'
 
 export default function Navbar(props) {
+
+  const [ isOpen, setOpen ] = useState(false)
+
   return (
-    <div className="navbar-container">
-      <div className="navbar">
-        <span className="link">Home</span>
-        <span className="link">About</span>
-        <div className="logo-container">
-          <img src={logo} className="logo" alt="Logo"/>
-        </div>
-        <span className="link">Projects</span>
-        <span className="link">Contact</span>
+    <div className="nav-container">
+      <div className="btn-menu">
+        <HamburgerMenu
+          isOpen={isOpen}
+          menuClicked={() => setOpen(!isOpen)}
+          width={45}
+          height={30}
+          strokeWidth={3}
+          rotate={0}
+          color='#fff'
+          borderRadius={0}
+          animationDuration={0.5}
+        />
       </div>
+      {/* <div className="menu">
+        <span>Home</span>
+        <span>About</span>
+        <span>Projects</span>
+        <span>Contact</span>
+      </div> */}
     </div>
   )
 }

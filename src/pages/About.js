@@ -1,10 +1,12 @@
 import React from 'react'
 
 
-export default class Home extends React.Component {
+export default class About extends React.Component {
   render() {
     return (
-      <div>About Bitch</div>
+      <div id="about" className="about-bg">
+          
+      </div>
     )
   }
 }
