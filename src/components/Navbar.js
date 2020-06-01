@@ -21,12 +21,6 @@ export default function Navbar(props) {
           animationDuration={0.5}
         />
       </div>
-      {/* <div className="menu">
-        <span>Home</span>
-        <span>About</span>
-        <span>Projects</span>
-        <span>Contact</span>
-      </div> */}
     </div>
   )
 }

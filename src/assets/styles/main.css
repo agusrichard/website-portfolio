@@ -1,15 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+/* ---------------- MAIN ------------------ */
+.container {
+  width: 80%;
+  margin: auto;
+}
+
 
 /* ---------------- NAVBAR ------------------ */
 .nav-container {
   position: fixed;
   top: 2.5rem;
   right: 2.5rem;
+  z-index: 999;
 }
 
 .btn-menu {
   cursor: pointer;
 }
+
 
 /* ---------------- DIVIDER ------------------ */
 .divider {
@@ -55,9 +65,49 @@
 
 /* ---------------- ABOUT ------------------ */
 .about-bg {
+  position: relative;
   width: 100%;
   height: 100vh;
   background-image: url('../images/about.jpg');
   background-position: center;
   background-size: cover;
+}
+
+.about {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(20, 19, 19, 0.719);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-title {
+  margin-top: -75px;
+  padding: 0;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+}
+
+.profile-container {
+  margin-top: 75px;
+  padding: 20px 10px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 50px;
+}
+
+.img-profile {
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.proflle-text-container {
+  color: #fff;
+  font-family: 'Manrope', sans-serif;
+  text-align: justify;
 }

@@ -13,8 +13,8 @@ export default class Home extends React.Component {
     return (
       <div id="home" className="home-bg">
         <div className="home">
-          <p style={{ padding: '0.5rem', margin: 0, marginLeft: -100 }}>Hello, I'm Agus Richard Lubis.</p>
-          <p style={{ padding: '0.5rem', margin: 0, marginRight: -200 }}>I'am a Full Stack Developer</p>
+          <p style={{ padding: '0.5rem', margin: 0}}>Hello, I'm Agus Richard Lubis.</p>
+          <p style={{ padding: '0.5rem', margin: 0}}>I'am a Full Stack Developer and Data Scientist.</p>
           <div style={{ marginTop: '1.5rem' }}>
             <a target="_blank" rel="noopener noreferrer" href="https://github.com/agusrichard"><FontAwesomeIcon icon={ faGithub } className="home-icon" /></a>
             <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/agusrichard21/"><FontAwesomeIcon icon={ faInstagram } className="home-icon" /></a>
