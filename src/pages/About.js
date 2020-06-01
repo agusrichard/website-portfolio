@@ -7,7 +7,7 @@ export default class About extends React.Component {
       <div id="about" className="about-bg">
         <div className="about">
           <div className="container">
-            <h1 className="about-title">About</h1>
+            <h1 className="title">About</h1>
             <div className="profile-container">
               <img src={require('../assets/images/profile.jpg')} alt="Profile" className="img-profile"/>
               <div className="proflle-text-container">
