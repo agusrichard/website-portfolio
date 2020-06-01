@@ -23,7 +23,7 @@ export default class Contact extends React.Component {
               <div className="contact-text-container">
                 <p>
                   Please contact me by Email, Phone, or WhatsApp.
-                  I'll do my best to answer your question and I am ready to be a great asset for you.
+                  I'll do my best to answer your questions and I am ready to be a great asset for you.
                 </p>
               </div>
             </div>

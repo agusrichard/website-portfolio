@@ -14,7 +14,7 @@ export default class Education extends React.Component {
                 <div>
                   <div className="edu-cert-item">
                     <p style={{ fontWeight: 'bolder', fontSize: '1.2rem' }}>Arkademy Tech Education Platform</p>
-                    <p className="left-indent">FullStack Development</p>
+                    <p className="left-indent">Full Stack Development</p>
                   </div>
                   <div className="edu-cert-item">
                     <p style={{ fontWeight: 'bolder', fontSize: '1.2rem' }}>DataCamp</p>

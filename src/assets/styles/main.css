@@ -174,6 +174,116 @@
   transition: 0.3s;
 }
 
+/* ---------------- PROJECTS ------------------ */
+.projects-bg {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url('../images/projects.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.projects {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(44, 41, 41, 0.7);
+}
+
+.projects-container {
+  color: #fff;
+  margin-top: 20px;
+  font-family: 'Manrope', sans-serif;
+}
+
+.project-type {
+  padding: 5px 15px;
+  margin: 5px 15px;
+  border-bottom: 2px #FFCC00 solid;
+  font-size: 1.25rem;
+}
+
+.project-type:hover {
+  color: #FFCC00;
+  background: rgb(88, 87, 87);
+  border-bottom: 2px #fff solid;
+  border-radius: 5px;
+  transition: 0.25s;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+.project-item {
+  display: inline-block;
+  border-left: 2px #fff solid;
+  border-top: 2px #fff solid;
+  border-right: 2px #fff solid;
+  border-bottom: 5px #FFCC00 solid;
+  padding: 5px 10px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background-color: rgb(126, 126, 126);
+  margin: 0 10px;
+  transition: 0.25s ease-out;
+}
+
+.project-item:hover {
+  border: 2px #FFCC00 solid;
+  transition: 0.25s ease-out;
+}
+
+.project-item:hover h3 {
+  color: #FFCC00;
+  transition: 0.25s ease-out;
+}
+
+.project-link {
+  display: block;
+  padding: 5px;
+  margin: 5px auto;
+  text-decoration: none;
+  color: #000;
+  background: #fff;
+  border-radius: 5px;
+  font-weight: bolder;
+  text-align: center;
+  transition: 0.25s;
+}
+
+.project-link:hover {
+  background: #FFCC00;
+  color: #fff;
+  box-sizing: border-box;
+  transition: 0.25s;
+}
+
+.more {
+  display: block;
+  background: rgb(134, 134, 134);
+  margin: auto;
+  text-align: center;
+  width: 150px;
+  margin-top: 50px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.more:hover {
+  background: #FFCC00;
+  transition: 0.25s;
+}
+
+.active {
+  background: #fff;
+  color: #FFCC00;
+  border-radius: 5px;
+  font-weight: bolder;
+}
+
 /* ---------------- CONTACT ------------------ */
 .contact-bg {
   position: relative;
