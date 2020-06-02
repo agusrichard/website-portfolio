@@ -12,7 +12,7 @@ export default class Contact extends React.Component {
           <div className="contact">
             <div className="container">
               <Slide top>
-                <h1 className="title">Contact</h1>
+                <h1 className="title">Contacts</h1>
               </Slide>
               <div className="contact-container">
                 <div style={{ width: '60%'}}>

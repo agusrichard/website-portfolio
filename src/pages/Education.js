@@ -40,15 +40,15 @@ export default class Education extends React.Component {
                     <div>
                       <div className="edu-cert-item">
                         <p style={{ fontWeight: 'bolder', fontSize: '1.2rem' }}>Data Science with Python Track</p>
-                        <p className="left-indent">@DataCamp -- <a href="#" className="certification-link">Validate here</a></p>
+                        <p className="left-indent">@DataCamp -- <a href="https://drive.google.com/file/d/1asTz2Vbfe5rufg8DZ7clIpYba8clcIxI/view?usp=sharing" className="certification-link">Validate here</a></p>
                       </div>
                       <div className="edu-cert-item">
                         <p style={{ fontWeight: 'bolder', fontSize: '1.2rem' }}>Responsive Web Design Certification</p>
-                        <p className="left-indent">@freeCodeCamp -- <a href="#" className="certification-link">Validate here</a></p>
+                        <p className="left-indent">@freeCodeCamp -- <a href="https://www.freecodecamp.org/certification/agusrichard21/responsive-web-design" className="certification-link">Validate here</a></p>
                       </div>
                       <div className="edu-cert-item">
                         <p style={{ fontWeight: 'bolder', fontSize: '1.2rem' }}>JavaScript Algorithms and Data Structures Certification</p>
-                        <p className="left-indent">@freeCodeCamp -- <a href="#" className="certification-link">Validate here</a></p>
+                        <p className="left-indent">@freeCodeCamp -- <a href="https://www.freecodecamp.org/certification/agusrichard21/javascript-algorithms-and-data-structures" className="certification-link">Validate here</a></p>
                       </div>
                     </div>
                   </div>
