@@ -257,24 +257,20 @@
   transition: 0.25s;
 }
 
-.more {
-  display: block;
-  background: rgb(134, 134, 134);
-  margin: auto;
-  text-align: center;
-  width: 150px;
-  margin-top: 50px;
-  padding: 5px 10px;
-  border-radius: 5px;
-  font-size: 1.2rem;
-  font-weight: bolder;
+.icon {
+  font-size: 3rem;
+  margin: 10px;
   cursor: pointer;
   transition: 0.25s;
 }
 
-.more:hover {
-  background: #FFCC00;
+.icon:not(.deactivate):hover {
+  color: #FFCC00;
   transition: 0.25s;
+}
+
+.icon.deactivate {
+  color: #000;
 }
 
 .active {
@@ -282,6 +278,10 @@
   color: #FFCC00;
   border-radius: 5px;
   font-weight: bolder;
+}
+
+.deactivate {
+  cursor: not-allowed;
 }
 
 /* ---------------- CONTACT ------------------ */
