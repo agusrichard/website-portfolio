@@ -27,6 +27,47 @@
 
 .btn-menu {
   cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.goto-container {
+  position: relative;
+  top: 55px;
+  border: 2px #FFCC00 solid;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 1.2rem;
+  background: rgba(187, 184, 184, 0.5);
+  width: 300px;
+}
+
+.goto {
+  display: block;
+  width: 90%;
+  margin: 10px 5px;
+  padding: 5px;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.goto:hover {
+  color: #FFCC00;
+  margin-left: 10px;
+  transition: 0.25s;
+}
+
+.goto-closed {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s linear 300ms, opacity 300ms;
+}
+
+.goto-opened {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s linear 0s, opacity 300ms;
 }
 
 
