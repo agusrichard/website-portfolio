@@ -26,7 +26,7 @@ export default function Navbar(props) {
         <Link className="goto" to="about" spy={true} smooth={true} duration={500}>About</Link>
         <Link className="goto" to="edu-cert" spy={true} smooth={true} duration={500}>Educations and Certificates</Link>
         <Link className="goto" to="projects" spy={true} smooth={true} duration={500}>Projects</Link>
-        <Link className="goto" to="contact" spy={true} smooth={true} duration={500}>Contact</Link>
+        <Link className="goto" to="contact" spy={true} smooth={true} duration={500}>Contacts</Link>
       </div>
     </div>
   )
